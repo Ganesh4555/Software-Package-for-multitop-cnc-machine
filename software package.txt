@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CNC</title>
+        <link rel="stylesheet" href="css/FP_MAIN_STYLES.css"/>
+        <style>
+        button[type=submit] {
+            width: 30%;
+            background-color: #971E46;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 100%;
+            }
+            </style>
+    </head>
+
+    <body style="background-color:Skyblue">
+
+    <br><br><br>
+        <div class="zero">
+            <div>WELCOME</div>
+            <div>TO</div>
+            <div>INTERACTIVE CNC SOFTWARE PACKAGE FOR MULTIPURPOSE MACHINE TOOL</div>
+            <h2>--------------------------------------------------------------------</h2>
+        </div>
+        <div class="one">
+                <div class="one"><img src="IMAGES/CNC_MODEL.png"></div>
+
+                <div class="zero">
+                    <a>This website shows you the interface of cnc Multimachine operating system</a>
+                    <br>
+                    <a href="page2.php" target="blank"><button type="submit">ENTER</button></a>
+                </div>
+        </div>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page2</title>
+        <link rel="stylesheet" href="css/FP_MAIN_STYLES.css"/>
+        <style>
+        button[type=submit] {
+            width: 30%;
+            background-color: #971E46;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 100%;
+            }
+            </style>
+    </head>
+
+    <body style="background-color:Skyblue">
+        <div class="two">
+
+            <div>
+            <h1>MAIN WINDOW</h1>
+            </div>
+
+            <div class="tep">
+                <a href="page3.php" target="blank"><button type="submit">LATHE OPERATIONS</button></a>
+                <br><br>
+                <a href="page4.php" target="blank"><button type="submit">MILLING OPERATIONS</button></a>
+                <br><br>
+                <a href="page5.php" target="blank"><button type="submit">DRILLING OPERATIONS</button></a>
+                <br><br>
+                <button type="submit">HOME</button><tr> <a href="FP_MAIN.php" target="blank"><button type="submit">EXIT</button></a>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page3</title>
+        <link rel="stylesheet" href="css/FP_MAIN_STYLES.css"/>
+        <style>
+        button[type=submit] {
+            width: 30%;
+            background-color: #971E46;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 100%;
+            }
+            </style>
+    </head>
+
+    <body style="background-color:Skyblue">
+        <div class="two">
+
+            <div>
+            <h1>LATHE OPERATIONS</h1>
+            </div>
+
+            <div class="tep">
+                <a href="page6.php" target="blank"><button type="submit">PREDEFINED OPERATION</button>
+                <br><br>
+                <button type="submit">CUSTOMIZED OPERATION </button>
+                <br><br>
+                <a href="page2.php" target="blank"><button type="submit">BACK</button>
+        </div>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page4</title>
+        <link rel="stylesheet" href="css/FP_MAIN_STYLES.css"/>
+        <style>
+        button[type=submit] {
+            width: 30%;
+            background-color: #971E46;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 100%;
+            }
+            </style>
+    </head>
+
+    <body style="background-color:Skyblue">
+        <div class="two">
+
+            <div>
+            <h1>MILLING OPERATIONS</h1>
+            </div>
+
+            <div class="tep">
+                <button type="submit">PREDEFINED OPERATION</button>
+                <br><br>
+                <button type="submit">CUSTOMIZED OPERATION </button>
+                <br><br>
+                <a href="page2.php" target="blank"><button type="submit">BACK</button>
+        </div>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page6</title>
+        <link rel="stylesheet" href="css/FP_MAIN_STYLES.css"/>
+        <style>
+        button[type=submit] {
+            width: 30%;
+            background-color: #971E46;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 100%;
+            }
+            </style>
+    </head>
+
+    <body style="background-color:Skyblue">
+        <div class="two">
+
+            <div>
+            <h1>PREDEFINED OPERATIONS FOR LATHE</h1>
+            </div>
+
+            <div class="tep">
+                <a href="page7.php" target="blank"><button type="submit">PLAIN TURNING</button></a>
+                <br><br>
+                <a href="stepturning.php" target="blank"><button type="submit">STEP TURNING</button></a>
+                <br><br>
+                <a href="blankpage.php" target="blank"><button type="submit">TAPER TURNING</button></a>
+                <br><br>
+                <a href="blankpage.php" target="blank"><button type="submit">GROOVE TURNING</button></a>
+                <br><br>
+                <a href="blankpage.php" target="blank"><button type="submit">THREAD TURNING</button></a>
+                <br><br>
+                <a href="blankpage.php" target="blank"><button type="submit">CONTINUOUS TURNING</button></a>
+                <br><br>
+                <a href="blankpage.php" target="blank"><button type="submit">BACK</button></a>
+                <br><br>
+                
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page7</title>
+        <link rel="stylesheet" href="css/FP_MAIN_STYLES.css"/>
+        <style>
+        button[type=submit] {
+            width: 30%;
+            background-color: #971E46;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 100%;
+            }
+            </style>
+    </head>
+
+    <body style="background-color:Skyblue">
+        <div class="two">
+
+            <div>
+            <h1>PLAIN TURNING</h1>
+            </div>
+
+            <div class="tep">
+                <a href="stepturninginputs.php" target="blank"><button type="submit">ENTER THE REQUIRED PARAMETERS TO GENERATE THE CODE</button></a>
+                <br><br>  
+            </div>
+        </div>
+    </body>
+</html>
